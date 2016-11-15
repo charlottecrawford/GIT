@@ -12,12 +12,12 @@ int main()
     Sum = n1 + n2;
 
     // display output     
-    printf("%d + %d = %d\n", n1, n2, Sum);
+    printf("%d + %d = %d\n\n", n1, n2, Sum);
 	
 	if(n1>n2)
-		printf("The numbers in increasing order are %d, %d\n", n2, n1);
+		printf("The numbers in increasing order are %d, %d\n\n", n2, n1);
 	else
-		printf("The numbers in increasing order are %d, %d\n", n1, n2);
+		printf("The numbers in increasing order are %d, %d\n\n", n1, n2);
     
     // check if the sum is even or odd, 
     // and print result to screen
